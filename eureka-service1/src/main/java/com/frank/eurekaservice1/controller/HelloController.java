@@ -8,6 +8,8 @@ import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Random;
+
 /**
  * Created by jianweilin on 2017/9/24.
  */
@@ -22,9 +24,10 @@ public class HelloController {
     public String index() throws InterruptedException {
         ServiceInstance instance = client.getLocalServiceInstance();
 
-//        int sleepTime = new Random().nextInt(3000);
-//        logger.info("sleepTime:" + sleepTime);
-//        Thread.sleep(sleepTime);
+        // 测试超时
+        int sleepTime = new Random().nextInt(3000);
+        logger.info("sleepTime:" + sleepTime);
+        Thread.sleep(sleepTime);
         logger.info("/hello,host:" + instance.getHost() + " ,service_id " + instance.getServiceId());
         return "Hello World!";
     }
