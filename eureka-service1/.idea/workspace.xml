@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a94fcabe-352e-4f51-bfb0-ff09330e6641" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../feign-consumer/src/main/java/com/frank/feignconsumer/service/HelloServiceFallback.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/frank/eurekaservice1/controller/HelloController.java" afterPath="$PROJECT_DIR$/src/main/java/com/frank/eurekaservice1/controller/HelloController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../feign-consumer/pom.xml" afterPath="$PROJECT_DIR$/../feign-consumer/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../feign-consumer/src/main/java/com/frank/feignconsumer/service/HelloService.java" afterPath="$PROJECT_DIR$/../feign-consumer/src/main/java/com/frank/feignconsumer/service/HelloService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../feign-consumer/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../feign-consumer/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -153,10 +147,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="35" />
-    <option name="y" value="23" />
-    <option name="width" value="1245" />
-    <option name="height" value="777" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -399,16 +391,15 @@
       <workItem from="1506698896616" duration="526000" />
       <workItem from="1506737622757" duration="535000" />
       <workItem from="1506764455592" duration="943000" />
-      <workItem from="1506775656700" duration="2691000" />
+      <workItem from="1506775656700" duration="3117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26677000" />
+    <option name="totallyTimeSpent" value="27103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44005847" sideWeight="0.50955945" order="7" side_tool="true" content_ui="tabs" />
